@@ -1,4 +1,4 @@
-FROM lMl10l/userbot:slim-buster
+FROM rickthon/userbot:slim-buster
 
 #clonning repo 
 RUN git clone https://github.com/rogerpq/RepthonAr.git /root/jepthon
