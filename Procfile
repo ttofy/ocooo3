@@ -1,1 +1,1 @@
-worker: bash RICKTHON
+worker: bash RickThon
