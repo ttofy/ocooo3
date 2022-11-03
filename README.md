@@ -1,6 +1,6 @@
-<p align="center"><a href="https://t.me/Rickthon"><img src="https://telegra.ph/file/9c62339dc499a45a9f718.jpg" width="5000"></a></p>
-<h1 align="center"><b>Rickthon_USERBOT 🇮🇶 </b></h1>
-<h4 align="center">𓆰♥️🧸 𝐖𝐞𝐥𝐂𝐨𝐦𝐞 𝑻𝐨 𝙎𝙊𝙐𝙍𝘾𝞝_ 𝐑𝐈𝐂𝐊𝐓𝐇𝐎𝐍↷.</h4>
+<p align="center"><a href="https://t.me/ooobo"><img src="https://telegra.ph/file/d8f320d1a8df4d77a413c.jpg" width="5000"></a></p>
+<h1 align="center"><b>touete_USERBOT 🇮🇶 </b></h1>
+<h4 align="center">𓆰♥️🧸 𝐖𝐞𝐥𝐂𝐨𝐦𝐞 𝑻𝐨 𝙎𝙊𝙐𝙍𝘾𝞝_ TOETE↷.</h4>
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FRallsthon%2FRalls&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://github.com/Rallsthon/Ralls)
 [![Open Source](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
@@ -14,12 +14,12 @@
 - Get your `API_ID` and `API_HASH` from [here](https://my.telegram.org/)    
 
 ### Deploying To Heroku ⚙
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rick1128/rick)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/toueteuserbot/rick)
 
 # Licence 📋
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
-* Copyright (C) 2020-2021 by Repthon@Github, < https://github.com/rick1128>.
+* Copyright (C) 2020-2021 by Repthon@Github, < https://github.com/toueteuserbot>.
 
 RallsUserbot is Free Software: You can use, study share and improve it at your
 will. Specifically you can redistribute and/or modify it under the terms of the
@@ -29,5 +29,5 @@ published by the Free Software Foundation, either version 3 of the License, or
 
   
 ## Dev
-   <a href="https://t.me/P_J_I"><img src="https://img.shields.io/badge/Source%20Dev%3F-here-inactive?&style=plastic?&logo=telegram" width=220px></a></p>
-✗ ¦ ↱SAIF↲ ¦ ✗ 𐇮
+   <a href="https://t.me/oQooo"><img src="https://img.shields.io/badge/Source%20Dev%3F-here-inactive?&style=plastic?&logo=telegram" width=220px></a></p>
+✗ ¦ ↱↲ ¦ ✗ 𐇮
