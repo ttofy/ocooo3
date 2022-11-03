@@ -1,1 +1,1 @@
-worker: bash RickThon
+worker: bash start
