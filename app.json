@@ -60,7 +60,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس لا تغيره ابدا",
-      "value": "https://github.com/rick1128/rick",
+      "value": "https://github.com/toeteuserbot/touete",
       "required": false
     }
   },
