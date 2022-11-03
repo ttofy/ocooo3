@@ -1,13 +1,13 @@
 {
-  "name": "ريك ثون-𝐑𝐈𝐂𝐊𝐓𝐇𝐎𝐍",
+  "name": "تويتي-TOUETE",
   "description": "اللهم صلِ على محمد وآل محمد",
-  "logo": "https://telegra.ph/file/bace4f355e4560b4c4db1.jpg",
+  "logo": "https://telegra.ph/file/d8f320d1a8df4d77a413c.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/rick1128/RICKTHONS/",
+  "repository": "https://github.com/toeteuserbot/userbot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
