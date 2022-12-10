@@ -4,9 +4,9 @@
 _get_ziplink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "rick" ]]
+    if [[ $UPSTREAM_REPO == "touete" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3JpY2sxMTI4L3JpY2svYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3R0b2Z5L3RvdWV0ZQ==" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
@@ -16,7 +16,7 @@ _get_ziplink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3JpY2sxMTI4L3JpY2svYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3R0b2Z5L3RvdWV0ZQ==" | base64 -d
     fi
 }
 
@@ -24,17 +24,18 @@ _get_repolink () {
     local regex
     local rlink
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "rick" ]]
+    if [[ $UPSTREAM_REPO == "touete" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3JpY2sxMTI4L3JpY2suZ2l0" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3R0b2Z5L3RvdWV0ZS5naXQ==" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink=`echo "${UPSTREAM_REPO}"`
     else
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3JpY2sxMTI4L3JpY2suZ2l0" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL3R0b2Z5L3RvdWV0ZS5naXQ==" | base64 -d`
     fi
     echo "$rlink"
 }
+
 
 _run_python_code() {
     python3${pVer%.*} -c "$1"
@@ -43,7 +44,7 @@ _run_python_code() {
 _run_catpack_git() {
     $(_run_python_code 'from git import Repo
 import sys
-OFFICIAL_UPSTREAM_REPO = "https://github.com/rick1128/rick"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/ttofy/touete"
 ACTIVE_BRANCH_NAME = "master"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
@@ -67,7 +68,7 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 
 _set_bot () {
     local zippath
-    zippath="rick.zip"
+    zippath="rickf.zip"
     echo "جاري تنزيل اكواد السورس "
     wget -q $(_get_ziplink) -O "$zippath"
     echo " تفريغ البيانات "
@@ -82,7 +83,7 @@ _set_bot () {
     _run_cat_git
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
-    echo "   ツ جار بدء تويتي ツ    "
+    echo "    بدء تنزيل بيانات تويتي    "
     echo "
     "
     python3 -m jepthon
